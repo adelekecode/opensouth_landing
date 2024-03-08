@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
 html {
   font-size: 100% !important;
 }
