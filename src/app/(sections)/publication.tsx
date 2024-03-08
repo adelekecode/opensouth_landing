@@ -26,7 +26,7 @@ function Card({ title, body, image }: (typeof data)[0]) {
 
 export default function Publication() {
   return (
-    <div className="p-8 py-16 bg-primary-900">
+    <div id="publication" className="p-8 py-16 bg-primary-900">
       <div className="mx-auto max-w-2xl flex flex-col gap-10">
         <header className="flex items-center justify-center">
           <SectionTitle className="text-white">Publications</SectionTitle>
