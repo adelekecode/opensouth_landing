@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 * {
-  font-family: "Work Sans", sans-serif;
+  font-family: var(--font-work-sans);
 }
 
 html {
