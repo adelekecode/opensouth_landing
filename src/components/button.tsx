@@ -1,3 +1,5 @@
+"use client";
+
 import { LoadingButton, LoadingButtonProps } from "@mui/lab";
 import { twMerge } from "tailwind-merge";
 
