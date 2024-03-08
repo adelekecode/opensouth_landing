@@ -18,8 +18,8 @@ const validationSchema = Yup.object({
 
 export default function Contact() {
   return (
-    <div className="max-w-maxAppWidth mx-auto w-full grid grid-cols-2">
-      <div className="flex flex-col gap-6 p-8 px-12 justify-center">
+    <div className="max-w-maxAppWidth mx-auto w-full grid grid-cols-2 tabletAndBelow:grid-cols-1">
+      <div className="flex flex-col gap-6 justify-center p-8 py-12 tablet:px-4 max-w-[36rem] mx-auto w-full">
         <header className="flex items-center justify-center">
           <SectionTitle>Contact</SectionTitle>
         </header>
@@ -42,7 +42,7 @@ export default function Contact() {
             {({ handleSubmit, isSubmitting }) => (
               <form
                 onSubmit={handleSubmit}
-                className="flex flex-col gap-4 w-full max-w-2xl mx-auto"
+                className="flex flex-col gap-4 w-full"
               >
                 <FormField
                   label="Name"
@@ -78,8 +78,13 @@ export default function Contact() {
           </Formik>
         </main>
       </div>
-      <figure className="w-full relative">
-        <Image src={Globe} priority alt="An image of a globe" />
+      <figure className="w-full tabletAndBelow:hidden">
+        <Image
+          src={Globe}
+          priority
+          className="w-full h-full object-cover"
+          alt="An image of a globe"
+        />
       </figure>
     </div>
   );
