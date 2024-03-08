@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: var(--font-work-sans);
+}
+
+html {
+  font-size: 100% !important;
+}
+@media (min-width: 1300px) {
+  html {
+    font-size: 105% !important;
+  }
+}
+@media (min-width: 1666px) {
+  html {
+    font-size: 110% !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #161616;
+}
+
+/* .team-card-border { */
+/* position: relative;
+  border: 1px solid transparent; */
+/* border-image-source: linear-gradient(
+    89.96deg,
+    #0e82bb 48.59%,
+    #46ab54 73.36%
+  ); */
+/* border-image-slice: 1; */
+/* background-origin: border-box; */
+/* background-clip: content-box, border-box; */
+/* background-clip: padding-box;
+  border-radius: 16px; */
+/* } */

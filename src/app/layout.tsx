@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./theme";
 import "./globals.css";
-import Footer from "~/components/footer";
-
-const inter = Inter({ subsets: ["latin"] });
+import { marhey, workSans } from "./_lib/fonts";
 
 export const metadata: Metadata = {
   title: "Open South",
@@ -17,12 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <div className="min-h-screen">
-          {children}
-          <Footer />
-        </div>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${workSans.variable} ${marhey.variable}`}>
+        <AppRouterCacheProvider>
+          <ThemeProvider theme={theme}>
+            <div className="min-h-screen flex">{children}</div>
+          </ThemeProvider>
+        </AppRouterCacheProvider>
       </body>
     </html>
   );

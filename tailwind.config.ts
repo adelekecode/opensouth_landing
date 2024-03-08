@@ -9,8 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        "Work-Sans": ["Work Sans", "sans-serif"],
-        Marhey: ["Marhey", "sans-serif"],
+        "Work-Sans": ["var(--font-work-sans)"],
+        Marhey: ["var(--font-marhey)"],
+      },
+      maxWidth: {
+        maxAppWidth: "1350px",
       },
       colors: {
         primary: {
