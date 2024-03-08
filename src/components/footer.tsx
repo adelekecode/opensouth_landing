@@ -25,7 +25,7 @@ const license = [
 
 export default function Footer() {
   return (
-    <footer className="px-6 tablet:px-0 divide-y border-zinc-200 flex flex-col">
+    <footer className="max-w-maxAppWidth mx-auto w-full px-6 tablet:px-0 divide-y border-zinc-200 flex flex-col">
       <div className="px-6 tablet:px-4 w-full flex items-center justify-center">
         <div className="w-full flex [@media(max-width:580px)]:grid [@media(max-width:580px)]:grid-cols-1 largeMobile:!grid-cols-1 largeMobile:gap-8 items-end justify-between gap-4 p-4 px-6 [@media(max-width:580px)]:px-4">
           <Logo
