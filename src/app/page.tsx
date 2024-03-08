@@ -3,6 +3,7 @@ import Contact from "./(sections)/contact";
 import Publication from "./(sections)/publication";
 import Intro from "./(sections)/intro";
 import About from "./(sections)/about";
+import Review from "./(sections)/review";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="flex-grow">
         <Intro />
         <About />
+        <Review />
         <Publication />
         <Contact />
       </div>
