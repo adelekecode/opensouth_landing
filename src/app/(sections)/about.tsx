@@ -79,25 +79,15 @@ export default function About() {
           <SectionTitle>About</SectionTitle>
         </header>
         <div className="flex flex-col gap-10">
-          <div className="[&_p]:text-info-900">
-            <p>
-              At Open South, we believe that access to data is a fundamental
-              driver of progress. We recognize the immense potential that lies
-              within the rich tapestry of information and knowledge that exists
-              in the Global South. Our platform serves as a gateway to unlock
-              this potential by providing a comprehensive repository of open
-              data.
-            </p>
-            <p>
-              We are committed to the principles of openness and transparency.
-              All the data available on Open South is freely downloadable,
-              enabling easy sharing and utilization by our users. We firmly
-              believe in the power of collaboration and the transformative
-              impact it can have on societies. By encouraging the sharing of
-              data, we promote interdisciplinary research, evidence-based
-              decision-making, and innovation across multiple sectors.
-            </p>
-          </div>
+          <p className="text-info-900">
+            At Open South, we are committed to the principles of openness and
+            transparency. All the data available on Open South is freely
+            downloadable, enabling easy sharing and utilization by our users. We
+            firmly believe in the power of collaboration and the transformative
+            impact it can have on societies. By encouraging the sharing of data,
+            we promote interdisciplinary research, evidence-based
+            decision-making, and innovation across multiple sectors.
+          </p>
           <div className="flex flex-col gap-6">
             <header className="flex flex-col">
               <h2 className="text-xl font-medium text-info-950">
