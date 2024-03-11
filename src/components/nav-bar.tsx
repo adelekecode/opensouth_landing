@@ -28,7 +28,7 @@ export default function NavBar() {
         </li>
       </ul>
 
-      <Button className="text-white gap-2">
+      <Button className="gap-2">
         <HiOutlineUserCircle className="text-lg" />
         <span className="font-normal">Sign Up</span>
       </Button>
