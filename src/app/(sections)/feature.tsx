@@ -7,33 +7,33 @@ import CreateOrganizationImage from "~/assets/images/features/create-organizatio
 
 export default function Feature() {
   return (
-    <section id="feature" className="bg-[#F6F6F7] p-16 tablet:px-4">
+    <section id="features" className="bg-[#F6F6F7] p-16 tablet:px-4">
       <div className="flex flex-col gap-10 max-w-maxAppWidth mx-auto">
         <header className="flex items-center justify-center">
           <SectionTitle>Features</SectionTitle>
         </header>
         <div className="flex flex-col items-center gap-8">
           <h2 className="text-3xl font-medium text-info-950 leading-10 text-center w-[65%]">
-            Solve data related problems with ease and unleash the power of Open
-            South, a platform for your benefit.
+            Data sharing expands knowledge and contributes to a better science
           </h2>
           <div className="flex flex-col gap-12 [&>div]:grid [&>div]:grid-cols-2 [&>div]:gap-8 [&>div]:items-center [&_*]:!text-info-950">
             <div>
               <div className="flex flex-col gap-3">
-                <h3 className="text-2xl font-bold">Explore Global Data</h3>
+                <h3 className="text-2xl font-bold">
+                  Explore Data in the Global South
+                </h3>
                 <div className="flex flex-col gap-4">
                   <p>
-                    Dive into our interactive map feature to visualize datasets
-                    and easily identify the countries they relate to. Explore
-                    data from across the Global South with just a few clicks.
+                    Explore data across several Global South countries with our
+                    interactive map feature.
                   </p>
                   <hr className="w-[80%] h-[1.5px] bg-info-300" />
                   <ul className="flex flex-col gap-2 [&>li]:before:bg-primary-300 [&>li]:flex [&>li]:items-center [&>li]:gap-3 [&>li]:before:size-[8px] [&>li]:before:rounded-full ">
                     <li>
-                      <p>Map of 100+ countries in the Global South.</p>
+                      <p>Map showing 100+ countries in the Global South.</p>
                     </li>
                     <li>
-                      <p>Easy scroll navigation through the map.</p>
+                      <p>Easy navigation.</p>
                     </li>
                     <li>
                       <p>
@@ -64,7 +64,7 @@ export default function Feature() {
                 />
               </div>
               <div className="flex flex-col gap-3">
-                <h3 className="text-2xl font-bold">Easy Dataset Creation</h3>
+                <h3 className="text-2xl font-bold">Easy Dataset Curation</h3>
                 <div className="flex flex-col gap-4">
                   <p>
                     Here at Open South, you can create datasets easily by just
@@ -93,7 +93,7 @@ export default function Feature() {
             <div>
               <div className="flex flex-col gap-3">
                 <h3 className="text-2xl font-bold">
-                  Organizational Dataset Creation
+                  Organization Dataset Curation
                 </h3>
                 <div className="flex flex-col gap-4">
                   <p>

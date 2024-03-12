@@ -20,7 +20,7 @@ export default function Contact() {
   return (
     <div
       id="contact"
-      className="max-w-maxAppWidth mx-auto w-full grid grid-cols-2 tabletAndBelow:grid-cols-1"
+      className="max-w-maxAppWidth mx-auto w-full grid grid-cols-1"
     >
       <div className="flex flex-col gap-6 justify-center p-8 py-12 tablet:px-4 max-w-[36rem] mx-auto w-full">
         <header className="flex items-center justify-center">
@@ -81,14 +81,6 @@ export default function Contact() {
           </Formik>
         </main>
       </div>
-      <figure className="w-full tabletAndBelow:hidden">
-        <Image
-          src={Globe}
-          priority
-          className="w-full h-full object-cover"
-          alt="An image of a globe"
-        />
-      </figure>
     </div>
   );
 }
