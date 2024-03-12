@@ -15,6 +15,9 @@ const config: Config = {
       maxWidth: {
         maxAppWidth: "1350px",
       },
+      boxShadow: {
+        "feat-img": "0px 4px 14px -3px #1C283F0F;",
+      },
       colors: {
         primary: {
           50: "#f1f9fe",
