@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { HiOutlineUserCircle } from "react-icons/hi2";
 import Logo from "./logo";
 import Button from "./button";
 
@@ -33,9 +32,8 @@ export default function NavBar() {
         </li>
       </ul>
 
-      <Button className="gap-2">
-        <HiOutlineUserCircle className="text-lg" />
-        <span className="font-normal">Sign Up</span>
+      <Button className="!py-2" href={"#contact"}>
+        <span className="font-normal">Contact us</span>
       </Button>
     </nav>
   );
