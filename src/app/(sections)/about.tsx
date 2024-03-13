@@ -112,7 +112,7 @@ export default function About() {
           <SectionTitle>About</SectionTitle>
         </header>
         <div className="flex flex-col gap-10">
-          <p className="text-info-900">
+          <p className="text-info-900 largeMobile:text-sm">
             At Open South, we are committed to the principles of openness and
             transparency. All the data available on Open South is freely
             downloadable, enabling easy sharing and utilization by our users. We
@@ -123,12 +123,12 @@ export default function About() {
           </p>
           <div className="flex flex-col gap-6">
             <header className="flex flex-col">
-              <h2 className="text-xl font-medium text-info-950">
+              <h2 className="text-xl font-medium text-info-950 largeMobile:text-lg">
                 Leadership Team
               </h2>
               <span className="w-12 h-[2px] bg-primary-500 rounded-full" />
             </header>
-            <main className="grid grid-cols-4 [@media(widt>=560px)and(width<=768px)]:!grid-cols-2 tabletAndBelow:grid-cols-3 [@media(width<=560px)]:!grid-cols-1 gap-4 ">
+            <main className="grid laptopAndAbove:grid-cols-4 grid-cols-3 tablet:grid-cols-2 [@media(width<=500px)]:!grid-cols-1 gap-4 ">
               {leadershipTeam.map((item, index) => (
                 <ProfileCard {...item} key={index + 1} />
               ))}
@@ -136,12 +136,12 @@ export default function About() {
           </div>
           <div className="flex flex-col gap-6">
             <header className="flex flex-col">
-              <h2 className="text-xl font-medium text-info-950">
+              <h2 className="text-xl font-medium text-info-950 largeMobile:text-lg">
                 Advisory Team
               </h2>
               <span className="w-12 h-[2px] bg-primary-500 rounded-full" />
             </header>
-            <main className="grid grid-cols-4 gap-4">
+            <main className="grid laptopAndAbove:grid-cols-4 grid-cols-3 tablet:grid-cols-2 [@media(width<=500px)]:!grid-cols-1 gap-4 ">
               {advisoryTeam.map((item, index) => (
                 <ProfileCard {...item} key={index + 1} />
               ))}
