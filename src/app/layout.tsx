@@ -3,7 +3,7 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme";
 import "./globals.css";
-import { marhey, workSans } from "./_lib/fonts";
+import { marhey, workSans } from "../utils/fonts";
 
 export const metadata: Metadata = {
   title: "Open South",

@@ -4,9 +4,9 @@ import { useState } from "react";
 import Image from "next/image";
 import { Popover } from "@mui/material";
 import SectionTitle from "~/components/section-title";
-import leadershipTeam from "../_lib/team/leadership-team";
-import advisoryTeam from "../_lib/team/advisory-team";
-import socialIcons from "../_lib/social-icons";
+import leadershipTeam from "../../utils/data/team/leadership-team";
+import advisoryTeam from "../../utils/data/team/advisory-team";
+import socialIcons from "../../utils/social-icons";
 
 function ProfileCard({
   fullName,
