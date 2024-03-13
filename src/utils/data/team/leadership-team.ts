@@ -1,5 +1,6 @@
 import Maria from "~/assets/images/leadership-team/maria.png";
 import Rajesh from "~/assets/images/leadership-team/rajesh.png";
+import UchechukwuAnachuna from "~/assets/images/leadership-team/uche-anachuna.jpg";
 
 const leadershipTeam = [
   {
@@ -22,6 +23,17 @@ const leadershipTeam = [
       {
         name: "twitter",
         link: "https://twitter.com",
+      },
+    ],
+  },
+  {
+    fullName: "Uchechukwu Anachuna",
+    picture: UchechukwuAnachuna,
+    role: "Frontend Developer",
+    socials: [
+      {
+        name: "portfolio",
+        link: "https://www.henzyd.com",
       },
     ],
   },

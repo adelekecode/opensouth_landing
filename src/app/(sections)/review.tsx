@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Avatar } from "@mui/material";
 import SectionTitle from "~/components/section-title";
 import ReviewBg from "~/assets/images/review-bg.png";
-import reviews from "../_lib/reviews";
+import reviews from "../../utils/data/reviews";
 
 function Card({
   body,

@@ -1,7 +1,7 @@
 "use client";
 
 import { createTheme } from "@mui/material/styles";
-import { workSans } from "./_lib/fonts";
+import { workSans } from "../utils/fonts";
 
 const theme = createTheme({
   palette: {
