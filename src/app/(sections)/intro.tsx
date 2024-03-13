@@ -11,13 +11,12 @@ export default function Intro() {
       <div className="max-w-maxAppWidth mx-auto h-fit">
         <div className="flex flex-col items-center gap-9 mx-auto pt-14">
           <div className="flex flex-col items-center gap-3 tabletAndBelow:gap-2 px-4">
-            <h1 className="capitalize text-[3.7vw] laptopAndAbove:text-[3rem] tablet:text-[5vw] largeMobile:!text-[6vw] text-info-950 font-bold text-center leading-[4.5vw] laptopAndAbove:leading-[3.5rem] tablet:leading-[6.3vw] largeMobile:!leading-[7.5vw]">
-              Welcome to our premium <br />
-              open data platform
+            <h1 className="text-[3.7vw] laptopAndAbove:text-[3rem] tablet:text-[5vw] largeMobile:!text-[6vw] text-info-950 font-bold text-center leading-[4.5vw] laptopAndAbove:leading-[3.5rem] tablet:leading-[6.3vw] largeMobile:!leading-[7.5vw]">
+              Unlocking data sharing in the <br /> Global South
             </h1>
             <p className="text-center text-info-800 text-base leading-6 tablet:text-xs largeMobile:!text-[3vw]">
-              Harnessing the power of open data to shape a brighter <br />{" "}
-              future for the Global South.
+              Providing the means to access and discover research data in the
+              Global South
             </p>
           </div>
           <Button className="w-fit gap-2 !px-16 tablet:!px-8 !rounded-2xl tablet:!rounded-xl largeMobile:!py-3">

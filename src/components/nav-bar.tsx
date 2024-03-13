@@ -12,6 +12,11 @@ export default function NavBar() {
 
       <ul className="flex items-center gap-6 [&_a]:text-info-800">
         <li>
+          <Link href={"#features"} className="hover:underline">
+            Features
+          </Link>
+        </li>
+        <li>
           <Link href={"#about"} className="hover:underline">
             About
           </Link>
