@@ -1,12 +1,12 @@
 "use client";
 
-import Image from "next/image";
 import { Formik } from "formik";
 import * as Yup from "yup";
-import Globe from "~/assets/images/globe.png";
 import FormField from "~/components/form-field";
 import Button from "~/components/button";
 import SectionTitle from "~/components/section-title";
+import axios from "axios";
+import { notifyError, notifySuccess } from "~/utils/toast";
 
 const validationSchema = Yup.object({
   name: Yup.string().trim().required("Name field is required"),
@@ -38,8 +38,20 @@ export default function Contact() {
             }}
             validationSchema={validationSchema}
             validateOnBlur={false}
-            onSubmit={async (_, { resetForm }) => {
-              resetForm();
+            onSubmit={async (values, { resetForm }) => {
+              try {
+                const { data } = await axios.post(
+                  `/public/support/system/`,
+                  values
+                );
+
+                if (data) {
+                  notifySuccess("Message sent successfully!");
+                  resetForm();
+                }
+              } catch (error) {
+                notifyError("Error occured while sending messaging");
+              }
             }}
           >
             {({ handleSubmit, isSubmitting }) => (
