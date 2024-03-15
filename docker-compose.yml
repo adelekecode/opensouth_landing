@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  web:
+    build: .
+    image: open-south-landing
+    container_name: open-south-client-landing
+    ports:
+      - "3232:3232"
+    env_file:
+      - .env.production
