@@ -12,6 +12,7 @@ export default function Logo({ className = "", ...props }: Props) {
       {...props}
       src={_logo}
       alt="Open-South-logo"
+      priority
       className={twMerge(`w-[8rem]`, `${className}`)}
     />
   );

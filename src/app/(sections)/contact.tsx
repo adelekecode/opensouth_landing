@@ -2,10 +2,10 @@
 
 import { Formik } from "formik";
 import * as Yup from "yup";
+import axios from "axios";
 import FormField from "~/components/form-field";
 import Button from "~/components/button";
 import SectionTitle from "~/components/section-title";
-import axios from "axios";
 import { notifyError, notifySuccess } from "~/utils/toast";
 
 const validationSchema = Yup.object({
@@ -38,16 +38,15 @@ export default function Contact() {
             }}
             validationSchema={validationSchema}
             validateOnBlur={false}
-            onSubmit={async (values, { resetForm }) => {
+            onSubmit={async (values) => {
               try {
                 const { data } = await axios.post(
-                  `/public/support/system/`,
+                  `/public/support/system/?key=public`,
                   values
                 );
 
                 if (data) {
                   notifySuccess("Message sent successfully!");
-                  resetForm();
                 }
               } catch (error) {
                 notifyError("Error occured while sending messaging");

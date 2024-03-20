@@ -4,6 +4,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import theme from "./theme";
 import "./globals.css";
 import { marhey, workSans } from "../utils/fonts";
+import "~/utils/api";
 
 export const metadata: Metadata = {
   title: "Open South",
