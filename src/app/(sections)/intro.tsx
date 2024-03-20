@@ -19,7 +19,10 @@ export default function Intro() {
               Global South
             </p>
           </div>
-          <Button className="w-fit gap-2 !px-16 tablet:!px-8 !rounded-2xl tablet:!rounded-xl largeMobile:!py-3">
+          <Button
+            href={`${process.env.NEXT_PUBLIC_MAIN_APP_URL}`}
+            className="w-fit gap-2 !px-16 tablet:!px-8 !rounded-2xl tablet:!rounded-xl largeMobile:!py-3"
+          >
             <HiOutlineUserCircle className="text-lg largeMobile:text-base" />
             <span className="font-normal tablet:text-xs">Sign Up Now</span>
           </Button>
