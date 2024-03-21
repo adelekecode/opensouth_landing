@@ -82,7 +82,7 @@ const leadershipTeam = [
   //   ],
   // },
   {
-    fullName: "Sandro Radovanovic",
+    fullName: "Sandro Radovanovic, Ph.D",
     picture: SandroRadovanovic,
     role: "Infrastructure",
     socials: [
