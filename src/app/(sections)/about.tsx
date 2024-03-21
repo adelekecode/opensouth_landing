@@ -27,7 +27,7 @@ function ProfileCard({
           target="_blank"
           rel="noopener noreferrer"
         >
-          <figure className="w-full aspect-[1/0.7]">
+          <figure className="w-full aspect-[1/0.8] overflow-hidden">
             <Image
               src={picture}
               className="w-full h-full object-cover"
@@ -53,7 +53,7 @@ function ProfileCard({
           setAnchorEl(e.currentTarget);
         }}
       >
-        <figure className="w-full aspect-[1/0.7]">
+        <figure className="w-full aspect-[1/0.8] overflow-hidden">
           <Image
             src={picture}
             className="w-full h-full object-cover"
@@ -134,7 +134,7 @@ export default function About() {
               ))}
             </main>
           </div>
-          <div className="flex flex-col gap-6">
+          {/* <div className="flex flex-col gap-6">
             <header className="flex flex-col">
               <h2 className="text-xl font-medium text-info-950 largeMobile:text-lg">
                 Advisory Team
@@ -146,7 +146,7 @@ export default function About() {
                 <ProfileCard {...item} key={index + 1} />
               ))}
             </main>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
