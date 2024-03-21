@@ -26,7 +26,7 @@ export default function Intro() {
             <HiOutlineUserCircle className="text-lg largeMobile:text-base" />
             <span className="font-normal tablet:text-xs">Sign Up Now</span>
           </Button>
-          <div className="overflow-hidden w-[80%] tablet:w-full px-4 aspect-[1/0.67] tablet:aspect-[1/0.6]">
+          <div className="overflow-hidden w-[80%] tablet:w-full px-4 aspect-[1/0.57] tablet:aspect-[1/0.50]">
             <div className="border-4 largeMobile:border-2 border-white rounded-[1.1rem] p-5 largeMobile:p-2 w-full bg-transparent">
               <Image
                 src={DashboardImage}

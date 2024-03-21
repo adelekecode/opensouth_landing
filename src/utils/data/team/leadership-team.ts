@@ -1,108 +1,109 @@
-import Maria from "~/assets/images/leadership-team/maria.png";
-import Rajesh from "~/assets/images/leadership-team/rajesh.png";
+import GeorgeObaido from "~/assets/images/leadership-team/george-obaido.jpg";
+import KehindeAruleba from "~/assets/images/leadership-team/kehinde-aruleba.jpeg";
+import ChinasaOkolo from "~/assets/images/leadership-team/chinasa-okolo.webp";
 import UchechukwuAnachuna from "~/assets/images/leadership-team/uche-anachuna.jpg";
+import SandroRadovanovic from "~/assets/images/leadership-team/sandro-radovanovic.png";
+import AdeshinaFattah from "~/assets/images/leadership-team/adeshina-fatah.jpeg";
 
 const leadershipTeam = [
   {
-    fullName: "Maria Garcia",
-    picture: Maria,
-    role: "CEO",
+    fullName: "George Obaido, Ph.D",
+    picture: GeorgeObaido,
+    role: "Co-Lead",
     socials: [
       {
-        name: "instagram",
-        link: "https://www.instagram.com",
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/georgeobaido",
       },
+      {
+        name: "scholar",
+        link: "https://scholar.google.com/citations?user=cCXONVYAAAAJ&hl=en",
+      },
+      {
+        name: "website",
+        link: "https://georgeobaido.com",
+      },
+    ],
+  },
+  {
+    fullName: "Kehinde Aruleba, Ph.D",
+    picture: KehindeAruleba,
+    role: "Co-Lead",
+    socials: [
       {
         name: "linkedin",
-        link: "https://www.linkedin.com",
+        link: "https://www.linkedin.com/in/kehinde-aruleba-phd-fhea-48a6b85a",
       },
       {
-        name: "github",
-        link: "https://github.com",
+        name: "scholar",
+        link: "https://scholar.google.com/citations?user=KI9Wrb4AAAAJ&hl=en",
+      },
+    ],
+  },
+  {
+    fullName: "Chinasa Okolo, Ph.D",
+    picture: ChinasaOkolo,
+    role: "Co-Lead",
+    socials: [
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/chinasatokolo",
       },
       {
-        name: "twitter",
-        link: "https://twitter.com",
+        name: "website",
+        link: "http://www.chinasatokolo.com",
+      },
+      {
+        name: "scholar",
+        link: "https://scholar.google.com/citations?user=Ljcd9nMAAAAJ",
       },
     ],
   },
   {
     fullName: "Uchechukwu Anachuna",
     picture: UchechukwuAnachuna,
-    role: "Frontend Developer",
+    role: "Front-end",
     socials: [
       {
-        name: "portfolio",
+        name: "website",
         link: "https://www.henzyd.com",
       },
     ],
   },
+  // {
+  //   fullName: "Adeleke Oluwafemi",
+  //   picture: UchechukwuAnachuna,
+  //   role: "Back-end",
+  //   socials: [
+  //     {
+  //       name: "website",
+  //       link: "https://www.henzyd.com",
+  //     },
+  //   ],
+  // },
   {
-    fullName: "Rajesh Patel",
-    picture: Rajesh,
-    role: "Software Engineering Lead",
+    fullName: "Sandro Radovanovic",
+    picture: SandroRadovanovic,
+    role: "Infrastructure",
     socials: [
       {
-        name: "instagram",
-        link: "https://www.instagram.com",
-      },
-      {
         name: "linkedin",
-        link: "https://www.linkedin.com",
+        link: "https://www.linkedin.com/in/sandroradovanovic",
       },
       {
-        name: "github",
-        link: "https://github.com",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com",
+        name: "scholar",
+        link: "https://scholar.google.com/citations?user=YQY16i8AAAAJ&hl=en",
       },
     ],
   },
   {
-    fullName: "Rajesh Patel",
-    picture: Rajesh,
-    role: "Software Engineering Lead",
+    fullName: "Adeshina Fatah",
+    picture: AdeshinaFattah,
+    role: "Cloud engineer",
     socials: [
       {
-        name: "instagram",
-        link: "https://www.instagram.com",
-      },
-      {
         name: "linkedin",
-        link: "https://www.linkedin.com",
-      },
-      {
-        name: "github",
-        link: "https://github.com",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com",
-      },
-    ],
-  },
-  {
-    fullName: "Rajesh Patel",
-    picture: Rajesh,
-    role: "Software Engineering Lead",
-    socials: [
-      {
-        name: "instagram",
-        link: "https://www.instagram.com",
-      },
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com",
-      },
-      {
-        name: "github",
-        link: "https://github.com",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com",
+        link: "https://www.linkedin.com/in/adeshina-f-jimoh-1b766421a",
       },
     ],
   },
