@@ -99,7 +99,7 @@ const leadershipTeam = [
   {
     fullName: "Adeshina Fatah",
     picture: AdeshinaFattah,
-    role: "Cloud engineer",
+    role: "Cloud Engineer",
     socials: [
       {
         name: "linkedin",
