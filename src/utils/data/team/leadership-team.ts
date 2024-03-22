@@ -2,6 +2,7 @@ import GeorgeObaido from "~/assets/images/leadership-team/george-obaido.jpg";
 import KehindeAruleba from "~/assets/images/leadership-team/kehinde-aruleba.jpeg";
 import ChinasaOkolo from "~/assets/images/leadership-team/chinasa-okolo.webp";
 import UchechukwuAnachuna from "~/assets/images/leadership-team/uche-anachuna.jpg";
+import FemiAdeleke from "~/assets/images/leadership-team/femi-adeleke.jpg";
 import SandroRadovanovic from "~/assets/images/leadership-team/sandro-radovanovic.png";
 import AdeshinaFattah from "~/assets/images/leadership-team/adeshina-fatah.jpeg";
 
@@ -70,17 +71,17 @@ const leadershipTeam = [
       },
     ],
   },
-  // {
-  //   fullName: "Adeleke Oluwafemi",
-  //   picture: UchechukwuAnachuna,
-  //   role: "Back-end",
-  //   socials: [
-  //     {
-  //       name: "website",
-  //       link: "https://www.henzyd.com",
-  //     },
-  //   ],
-  // },
+  {
+    fullName: "Adeleke Oluwafemi",
+    picture: FemiAdeleke,
+    role: "Back-end",
+    socials: [
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/adelekecode",
+      },
+    ],
+  },
   {
     fullName: "Sandro Radovanovic, Ph.D",
     picture: SandroRadovanovic,
