@@ -1,5 +1,7 @@
-import Sofia from "~/assets/images/advisory-team/sofia.png";
-import Fatoumata from "~/assets/images/advisory-team/fatoumata.png";
+//? Rediet Abebe, Stuart Russell, Sekou Remy, Soledad Guilera, Bunmi Otegbade, Silvia Crivelli, Martha Saveedra
+
+import Sofia from "~/assets/images/about/advisory-team/sofia.png";
+import Fatoumata from "~/assets/images/about/advisory-team/fatoumata.png";
 
 const advisoryTeam = [
   {
