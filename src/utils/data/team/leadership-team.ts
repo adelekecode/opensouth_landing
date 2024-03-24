@@ -1,10 +1,8 @@
-import GeorgeObaido from "~/assets/images/leadership-team/george-obaido.jpg";
-import KehindeAruleba from "~/assets/images/leadership-team/kehinde-aruleba.jpeg";
-import ChinasaOkolo from "~/assets/images/leadership-team/chinasa-okolo.webp";
-import UchechukwuAnachuna from "~/assets/images/leadership-team/uche-anachuna.jpg";
-import FemiAdeleke from "~/assets/images/leadership-team/femi-adeleke.jpg";
-import SandroRadovanovic from "~/assets/images/leadership-team/sandro-radovanovic.png";
-import AdeshinaFattah from "~/assets/images/leadership-team/adeshina-fatah.jpeg";
+import GeorgeObaido from "~/assets/images/about/leadership-team/george-obaido.jpg";
+import KehindeAruleba from "~/assets/images/about/leadership-team/kehinde-aruleba.jpeg";
+import ChinasaOkolo from "~/assets/images/about/leadership-team/chinasa-okolo.webp";
+import UchechukwuAnachuna from "~/assets/images/about/leadership-team/uche-anachuna.jpg";
+import FemiAdeleke from "~/assets/images/about/leadership-team/femi-adeleke.jpg";
 
 const leadershipTeam = [
   {
@@ -63,7 +61,7 @@ const leadershipTeam = [
   {
     fullName: "Uchechukwu Anachuna",
     picture: UchechukwuAnachuna,
-    role: "Front-end",
+    role: "Front-end Engineer",
     socials: [
       {
         name: "website",
@@ -74,37 +72,11 @@ const leadershipTeam = [
   {
     fullName: "Adeleke Oluwafemi",
     picture: FemiAdeleke,
-    role: "Back-end",
+    role: "Back-end Engineer",
     socials: [
       {
         name: "linkedin",
         link: "https://www.linkedin.com/in/adelekecode",
-      },
-    ],
-  },
-  {
-    fullName: "Sandro Radovanovic, Ph.D",
-    picture: SandroRadovanovic,
-    role: "Infrastructure",
-    socials: [
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com/in/sandroradovanovic",
-      },
-      {
-        name: "scholar",
-        link: "https://scholar.google.com/citations?user=YQY16i8AAAAJ&hl=en",
-      },
-    ],
-  },
-  {
-    fullName: "Adeshina Fatah",
-    picture: AdeshinaFattah,
-    role: "Cloud Engineer",
-    socials: [
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com/in/adeshina-f-jimoh-1b766421a",
       },
     ],
   },
