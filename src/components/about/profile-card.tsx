@@ -3,15 +3,15 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Popover } from "@mui/material";
-import leadershipTeam from "../../utils/data/team/leadership-team";
 import socialIcons from "../../utils/social-icons";
+import { Team } from "~/types/global";
 
 export default function ProfileCard({
   fullName,
   picture,
   role,
   socials,
-}: (typeof leadershipTeam)[0]) {
+}: Team) {
   const [anchorEl, setAnchorEl] = useState<HTMLButtonElement | null>(null);
 
   const open = Boolean(anchorEl);

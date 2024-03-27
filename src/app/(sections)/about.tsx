@@ -11,7 +11,7 @@ const teams = [
   { title: "Leadership", data: leadershipTeam },
   // { title: "Collaborators", data: collaborators },
   { title: "Contributors", data: contributors },
-  // { title: "Advisory", data: advisoryTeam },
+  { title: "Advisory", data: advisoryTeam },
 ];
 
 export default function About() {
