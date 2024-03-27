@@ -1,52 +1,26 @@
 //? Rediet Abebe, Stuart Russell, Sekou Remy, Soledad Guilera, Bunmi Otegbade, Silvia Crivelli, Martha Saveedra
 
-import Sofia from "~/assets/images/about/advisory-team/sofia.png";
-import Fatoumata from "~/assets/images/about/advisory-team/fatoumata.png";
+import SoledadGuilera from "~/assets/images/about/advisory-team/soledad-guilera.jpg";
+import RedietAbebe from "~/assets/images/about/advisory-team/rediet-abebe.jpg";
 
 const advisoryTeam = [
   {
-    fullName: "Sofia Lopez",
-    picture: Sofia,
-    role: "Director, Everydata",
+    fullName: "Soledad Guilera",
+    picture: SoledadGuilera,
     socials: [
       {
-        name: "instagram",
-        link: "https://www.instagram.com",
-      },
-      {
         name: "linkedin",
-        link: "https://www.linkedin.com",
-      },
-      {
-        name: "github",
-        link: "https://github.com",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com",
+        link: "https://www.linkedin.com/in/soledadguilera",
       },
     ],
   },
   {
-    fullName: "Fatoumata Diallo",
-    picture: Fatoumata,
-    role: "Co-founder, Comsource",
+    fullName: "Rediet Abebe",
+    picture: RedietAbebe,
     socials: [
       {
-        name: "instagram",
-        link: "https://www.instagram.com",
-      },
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com",
-      },
-      {
-        name: "github",
-        link: "https://github.com",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com",
+        name: "website",
+        link: "https://www.redietabebe.com",
       },
     ],
   },
