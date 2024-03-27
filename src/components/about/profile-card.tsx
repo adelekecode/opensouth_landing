@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { Popover } from "@mui/material";
-import socialIcons from "../../utils/social-icons";
-import { Team } from "~/types/global";
+import socialIcons from "~/utils/social-icons";
+import type { Team } from "~/types/global";
 
 export default function ProfileCard({
   fullName,
