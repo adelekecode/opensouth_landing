@@ -1,7 +1,7 @@
-import Link from "next/link";
 import Image from "next/image";
 import { IoArrowBack } from "react-icons/io5";
 import NotFoundIllustration from "~/assets/illustrations/404.png";
+import Button from "~/components/button";
 
 export default function NotFound() {
   return (
@@ -18,12 +18,10 @@ export default function NotFound() {
           "We couldn't find what you are looking for. Let's find a better place for you to go."
         }
       </p>
-      <div className="flex items-center gap-8 mt-4">
-        <Link href={"/"}>
-          <IoArrowBack className="!fill-white largeMobile:!w-4" />
-          <span>Go to Home</span>
-        </Link>
-      </div>
+      <Button href={"/"} className="flex items-center gap-2 mt-4">
+        <IoArrowBack className="!fill-white largeMobile:!w-4" />
+        <span>Go to Home</span>
+      </Button>
     </div>
   );
 }
