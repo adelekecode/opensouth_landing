@@ -9,7 +9,7 @@ const advisoryTeam = [
   {
     fullName: "Rediet Abebe",
     picture: RedietAbebe,
-    role: "Lecturer, Goldman School of Public Policy",
+    role: "Junior Fellow at Harvard",
     socials: [
       {
         name: "website",
