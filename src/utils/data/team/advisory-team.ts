@@ -43,7 +43,7 @@ const advisoryTeam = [
   {
     fullName: "Silvia Crivelli",
     picture: SilviaCrivelli,
-    role: "Lawrence Berkeley National Laboratory",
+    role: "Program Manager, Lawrence Berkeley National Laboratory",
     socials: [
       {
         name: "website",
