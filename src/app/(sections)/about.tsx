@@ -9,7 +9,7 @@ import collaborators from "~/utils/data/team/collaborators";
 
 const teams = [
   { title: "Leadership", data: leadershipTeam },
-  // { title: "Collaborators", data: collaborators },
+  { title: "Collaborators", data: collaborators },
   { title: "Contributors", data: contributors },
   { title: "Advisory", data: advisoryTeam },
 ];
