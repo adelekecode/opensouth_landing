@@ -1,108 +1,82 @@
-import Maria from "~/assets/images/leadership-team/maria.png";
-import Rajesh from "~/assets/images/leadership-team/rajesh.png";
-import UchechukwuAnachuna from "~/assets/images/leadership-team/uche-anachuna.jpg";
+import GeorgeObaido from "~/assets/images/about/leadership-team/george-obaido.jpg";
+import KehindeAruleba from "~/assets/images/about/leadership-team/kehinde-aruleba.jpeg";
+import ChinasaOkolo from "~/assets/images/about/leadership-team/chinasa-okolo.webp";
+import UchechukwuAnachuna from "~/assets/images/about/leadership-team/uche-anachuna.jpg";
+import FemiAdeleke from "~/assets/images/about/leadership-team/femi-adeleke.jpg";
 
 const leadershipTeam = [
   {
-    fullName: "Maria Garcia",
-    picture: Maria,
-    role: "CEO",
+    fullName: "George Obaido, Ph.D",
+    picture: GeorgeObaido,
+    role: "Co-Lead",
     socials: [
       {
-        name: "instagram",
-        link: "https://www.instagram.com",
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/georgeobaido",
       },
+      {
+        name: "scholar",
+        link: "https://scholar.google.com/citations?user=cCXONVYAAAAJ&hl=en",
+      },
+      {
+        name: "website",
+        link: "https://georgeobaido.com",
+      },
+    ],
+  },
+  {
+    fullName: "Kehinde Aruleba, Ph.D",
+    picture: KehindeAruleba,
+    role: "Co-Lead",
+    socials: [
       {
         name: "linkedin",
-        link: "https://www.linkedin.com",
+        link: "https://www.linkedin.com/in/kehinde-aruleba-phd-fhea-48a6b85a",
       },
       {
-        name: "github",
-        link: "https://github.com",
+        name: "scholar",
+        link: "https://scholar.google.com/citations?user=KI9Wrb4AAAAJ&hl=en",
+      },
+    ],
+  },
+  {
+    fullName: "Chinasa Okolo, Ph.D",
+    picture: ChinasaOkolo,
+    role: "Co-Lead",
+    socials: [
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/chinasatokolo",
       },
       {
-        name: "twitter",
-        link: "https://twitter.com",
+        name: "website",
+        link: "http://www.chinasatokolo.com",
+      },
+      {
+        name: "scholar",
+        link: "https://scholar.google.com/citations?user=Ljcd9nMAAAAJ",
       },
     ],
   },
   {
     fullName: "Uchechukwu Anachuna",
     picture: UchechukwuAnachuna,
-    role: "Frontend Developer",
+    role: "Front-end Engineer",
     socials: [
       {
-        name: "portfolio",
+        name: "website",
         link: "https://www.henzyd.com",
       },
     ],
   },
   {
-    fullName: "Rajesh Patel",
-    picture: Rajesh,
-    role: "Software Engineering Lead",
+    fullName: "Adeleke Oluwafemi",
+    picture: FemiAdeleke,
+    role: "Back-end Engineer",
     socials: [
       {
-        name: "instagram",
-        link: "https://www.instagram.com",
-      },
-      {
         name: "linkedin",
-        link: "https://www.linkedin.com",
-      },
-      {
-        name: "github",
-        link: "https://github.com",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com",
-      },
-    ],
-  },
-  {
-    fullName: "Rajesh Patel",
-    picture: Rajesh,
-    role: "Software Engineering Lead",
-    socials: [
-      {
-        name: "instagram",
-        link: "https://www.instagram.com",
-      },
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com",
-      },
-      {
-        name: "github",
-        link: "https://github.com",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com",
-      },
-    ],
-  },
-  {
-    fullName: "Rajesh Patel",
-    picture: Rajesh,
-    role: "Software Engineering Lead",
-    socials: [
-      {
-        name: "instagram",
-        link: "https://www.instagram.com",
-      },
-      {
-        name: "linkedin",
-        link: "https://www.linkedin.com",
-      },
-      {
-        name: "github",
-        link: "https://github.com",
-      },
-      {
-        name: "twitter",
-        link: "https://twitter.com",
+        link: "https://www.linkedin.com/in/adelekecode",
       },
     ],
   },

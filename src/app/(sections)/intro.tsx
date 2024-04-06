@@ -19,11 +19,14 @@ export default function Intro() {
               Global South
             </p>
           </div>
-          <Button className="w-fit gap-2 !px-16 tablet:!px-8 !rounded-2xl tablet:!rounded-xl largeMobile:!py-3">
+          <Button
+            href={`${process.env.NEXT_PUBLIC_MAIN_APP_URL}`}
+            className="w-fit gap-2 !px-16 tablet:!px-8 !rounded-2xl tablet:!rounded-xl largeMobile:!py-3"
+          >
             <HiOutlineUserCircle className="text-lg largeMobile:text-base" />
             <span className="font-normal tablet:text-xs">Sign Up Now</span>
           </Button>
-          <div className="overflow-hidden w-[80%] tablet:w-full px-4 aspect-[1/0.67] tablet:aspect-[1/0.6]">
+          <div className="overflow-hidden w-[80%] tablet:w-full px-4 aspect-[1/0.57] tablet:aspect-[1/0.50]">
             <div className="border-4 largeMobile:border-2 border-white rounded-[1.1rem] p-5 largeMobile:p-2 w-full bg-transparent">
               <Image
                 src={DashboardImage}
