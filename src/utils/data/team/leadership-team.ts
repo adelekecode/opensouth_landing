@@ -1,5 +1,5 @@
 import GeorgeObaido from "~/assets/images/about/leadership-team/george-obaido.jpg";
-import KehindeAruleba from "~/assets/images/about/leadership-team/kehinde-aruleba.jpeg";
+import KehindeAruleba from "~/assets/images/about/leadership-team/kehinde-aruleba.jpg";
 import ChinasaOkolo from "~/assets/images/about/leadership-team/chinasa-okolo.webp";
 import UchechukwuAnachuna from "~/assets/images/about/leadership-team/uche-anachuna.jpg";
 import FemiAdeleke from "~/assets/images/about/leadership-team/femi-adeleke.jpg";
