@@ -1,5 +1,5 @@
 import GeorgeObaido from "~/assets/images/about/leadership-team/george-obaido.jpg";
-import KehindeAruleba from "~/assets/images/about/leadership-team/kehinde-aruleba.jpeg";
+import KehindeAruleba from "~/assets/images/about/leadership-team/kehinde-aruleba.jpg";
 import ChinasaOkolo from "~/assets/images/about/leadership-team/chinasa-okolo.webp";
 import UchechukwuAnachuna from "~/assets/images/about/leadership-team/uche-anachuna.jpg";
 import FemiAdeleke from "~/assets/images/about/leadership-team/femi-adeleke.jpg";
@@ -8,7 +8,7 @@ const leadershipTeam = [
   {
     fullName: "George Obaido, Ph.D",
     picture: GeorgeObaido,
-    role: "Co-Lead",
+    role: "Co-Lead, Open South Research Fellow, Center for Human Compatible Artificial Intelligence & Berkeley Institute for Data Science, UC Berkeley",
     socials: [
       {
         name: "linkedin",
@@ -27,7 +27,7 @@ const leadershipTeam = [
   {
     fullName: "Kehinde Aruleba, Ph.D",
     picture: KehindeAruleba,
-    role: "Co-Lead",
+    role: "Co-Lead, Open South Lecturer, University of Leicester",
     socials: [
       {
         name: "linkedin",
@@ -42,7 +42,7 @@ const leadershipTeam = [
   {
     fullName: "Chinasa Okolo, Ph.D",
     picture: ChinasaOkolo,
-    role: "Co-Lead",
+    role: "Co-Lead, Open South Fellow, Center for Technology Innovation at The Brookings Institution",
     socials: [
       {
         name: "linkedin",
