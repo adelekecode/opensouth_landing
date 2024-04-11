@@ -8,7 +8,7 @@ const leadershipTeam = [
   {
     fullName: "George Obaido, Ph.D",
     picture: GeorgeObaido,
-    role: "Co-Lead, Open South Research Fellow, Center for Human Compatible Artificial Intelligence & Berkeley Institute for Data Science, UC Berkeley",
+    role: "Co-Lead, Open South\nResearch Fellow, Center for Human Compatible\nArtificial Intelligence & Berkeley Institute for Data Science, UC Berkeley",
     socials: [
       {
         name: "linkedin",
@@ -27,7 +27,7 @@ const leadershipTeam = [
   {
     fullName: "Kehinde Aruleba, Ph.D",
     picture: KehindeAruleba,
-    role: "Co-Lead, Open South Lecturer, University of Leicester",
+    role: "Co-Lead, Open South\nLecturer, University of Leicester",
     socials: [
       {
         name: "linkedin",
@@ -42,7 +42,7 @@ const leadershipTeam = [
   {
     fullName: "Chinasa Okolo, Ph.D",
     picture: ChinasaOkolo,
-    role: "Co-Lead, Open South Fellow, Center for Technology Innovation at The Brookings Institution",
+    role: "Co-Lead, Open South\nFellow, Center for Technology Innovation at The Brookings Institution",
     socials: [
       {
         name: "linkedin",
