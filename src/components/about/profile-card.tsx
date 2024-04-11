@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import Image from "next/image";
 import { Popover } from "@mui/material";
 import socialIcons from "~/utils/social-icons";
@@ -43,6 +43,16 @@ export default function ProfileCard({
     );
   }
 
+  function handleRole(role: string) {
+    const parts = role.split("\n");
+    return parts.map((part, index) => (
+      <Fragment key={index}>
+        {index > 0 && <br />}
+        {part}
+      </Fragment>
+    ));
+  }
+
   return (
     <>
       <button
@@ -62,7 +72,9 @@ export default function ProfileCard({
           <h4 className="text-base text-start font-medium text-info-950">
             {fullName}
           </h4>
-          <p className="text-sm text-start text-info-800">{role}</p>
+          <p className="text-sm text-start text-info-800">
+            {handleRole(role || "")}
+          </p>
         </div>
       </button>
       <Popover
