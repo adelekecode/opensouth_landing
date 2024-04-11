@@ -6,7 +6,7 @@ import FemiAdeleke from "~/assets/images/about/leadership-team/femi-adeleke.jpg"
 
 const leadershipTeam = [
   {
-    fullName: "George Obaido, Ph.D",
+    fullName: "George Obaido, Ph.D.",
     picture: GeorgeObaido,
     role: "Co-Lead, Open South\nResearch Fellow, Center for Human Compatible\nArtificial Intelligence & Berkeley Institute for Data Science, UC Berkeley",
     socials: [
@@ -25,7 +25,7 @@ const leadershipTeam = [
     ],
   },
   {
-    fullName: "Kehinde Aruleba, Ph.D",
+    fullName: "Kehinde Aruleba, Ph.D.",
     picture: KehindeAruleba,
     role: "Co-Lead, Open South\nLecturer, University of Leicester",
     socials: [
@@ -40,7 +40,7 @@ const leadershipTeam = [
     ],
   },
   {
-    fullName: "Chinasa Okolo, Ph.D",
+    fullName: "Chinasa Okolo, Ph.D.",
     picture: ChinasaOkolo,
     role: "Co-Lead, Open South\nFellow, Center for Technology Innovation at The Brookings Institution",
     socials: [

@@ -8,7 +8,7 @@ import BunmiOtegbade from "~/assets/images/about/advisory-team/bunmi-otegbade.pn
 
 const advisoryTeam = [
   {
-    fullName: "Rediet Abebe, Ph.D",
+    fullName: "Rediet Abebe, Ph.D.",
     picture: RedietAbebe,
     role: "Junior Fellow, Harvard Society of Fellows and Andrew Carnegie Fellow",
     socials: [
@@ -30,7 +30,7 @@ const advisoryTeam = [
     ],
   },
   {
-    fullName: "Sekou L. Remy, Ph.D",
+    fullName: "Sekou L. Remy, Ph.D.",
     picture: SekouRemy,
     role: "Senior Research Scientist, Google",
     socials: [
@@ -41,7 +41,7 @@ const advisoryTeam = [
     ],
   },
   {
-    fullName: "Silvia Crivelli, Ph.D",
+    fullName: "Silvia Crivelli, Ph.D.",
     picture: SilviaCrivelli,
     role: "Program Manager, Lawrence Berkeley National Laboratory",
     socials: [
