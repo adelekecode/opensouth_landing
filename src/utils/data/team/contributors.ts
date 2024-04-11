@@ -3,7 +3,7 @@ import AdeshinaFattah from "~/assets/images/about/contributors/adeshina-fatah.jp
 
 const contributors = [
   {
-    fullName: "Sandro Radovanovic, Ph.D",
+    fullName: "Sandro Radovanovic, Ph.D.",
     picture: SandroRadovanovic,
     role: "Assistant Professor at University of Belgrade",
     socials: [
