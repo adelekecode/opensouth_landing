@@ -61,7 +61,7 @@ const leadershipTeam = [
   {
     fullName: "Uchechukwu Anachuna",
     picture: UchechukwuAnachuna,
-    role: "Front-end Engineer",
+    role: "Software Engineer",
     socials: [
       {
         name: "website",
@@ -72,7 +72,7 @@ const leadershipTeam = [
   {
     fullName: "Adeleke Oluwafemi",
     picture: FemiAdeleke,
-    role: "Back-end Engineer",
+    role: "Software Engineer",
     socials: [
       {
         name: "linkedin",
