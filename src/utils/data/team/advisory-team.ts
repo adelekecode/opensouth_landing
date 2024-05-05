@@ -1,10 +1,9 @@
-//? Rediet Abebe, Stuart Russell, Sekou Remy, Soledad Guilera, Bunmi Otegbade, Silvia Crivelli, Martha Saveedra
-
 import SoledadGuilera from "~/assets/images/about/advisory-team/soledad-guilera.jpg";
 import RedietAbebe from "~/assets/images/about/advisory-team/rediet-abebe.jpg";
 import SekouRemy from "~/assets/images/about/advisory-team/sekou-remy.jpg";
 import SilviaCrivelli from "~/assets/images/about/advisory-team/silvia-crivelli.webp";
 import BunmiOtegbade from "~/assets/images/about/advisory-team/bunmi-otegbade.png";
+import FranciscoMarmolejo from "~/assets/images/about/advisory-team/francisco-marmolejo.jpg";
 
 const advisoryTeam = [
   {
@@ -59,6 +58,25 @@ const advisoryTeam = [
       {
         name: "linkedin",
         link: "https://www.linkedin.com/in/bunmiotegbade",
+      },
+    ],
+  },
+  {
+    fullName: "Francisco J. Marmolejo Cossío, Ph.D.",
+    picture: FranciscoMarmolejo,
+    role: "Research Fellow, Harvard University",
+    socials: [
+      {
+        name: "linkedin",
+        link: "https://www.linkedin.com/in/fjmarmolejo",
+      },
+      {
+        name: "scholar",
+        link: "https://scholar.google.com/citations?user=We4AZ00AAAAJ&hl=en",
+      },
+      {
+        name: "website",
+        link: "https://www.fmarmolejo.com",
       },
     ],
   },
