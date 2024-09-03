@@ -8,7 +8,7 @@ const leadershipTeam = [
   {
     fullName: "George Obaido, Ph.D.",
     picture: GeorgeObaido,
-    role: "Co-Lead, Open South\nResearch Fellow, Center for Human Compatible\nArtificial Intelligence & Berkeley Institute for Data Science, UC Berkeley",
+    role: "Lead, Open South\nResearch Fellow, Center for Human Compatible\nArtificial Intelligence & Berkeley Institute for Data Science, UC Berkeley",
     socials: [
       {
         name: "linkedin",
