@@ -28,10 +28,26 @@ export default function Footer() {
     <footer className="max-w-maxAppWidth mx-auto w-full px-6 tablet:px-0 divide-y border-zinc-200 flex flex-col">
       <div className="px-6 tablet:px-4 w-full flex items-center justify-center">
         <div className="w-full flex [@media(max-width:580px)]:grid [@media(max-width:580px)]:grid-cols-1 largeMobile:!grid-cols-1 largeMobile:gap-8 items-end justify-between gap-4 p-4 px-6 [@media(max-width:580px)]:px-4">
-          <Logo
-            className="w-40 [@media(max-width:580px)]:w-36 largeMobile:!w-32"
-            priority
-          />
+          <div className="flex flex-col gap-10">
+            <Logo
+              className="w-40 [@media(max-width:580px)]:w-36 largeMobile:!w-32"
+              priority
+            />
+            <small>
+              Open South is an{" "}
+              <a
+                href="https://www.eaamo.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                EAAMO
+              </a>{" "}
+              initiative, which is fiscally sponsored by <br /> the Hack
+              Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN:
+              81-2908499).
+            </small>
+          </div>
           <div className="flex flex-col gap-4 max-w-[70%] [@media(max-width:580px)]:max-w-[none]">
             <p className="text-sm font-medium text-center">Our Partners</p>
             <div className="flex flex-wrap [@media(max-width:960px)]:grid [@media(max-width:960px)]:grid-cols-2 gap-6 largeMobile:flex largeMobile:flex-wrap [&_div]:flex [&_img]:w-[8rem]">
@@ -40,6 +56,7 @@ export default function Footer() {
                   href="https://humancompatible.ai"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="flex items-end"
                 >
                   <Image src={CHAI} priority alt="CHAI logo" />
                 </a>
